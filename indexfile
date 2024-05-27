@@ -1,0 +1,11 @@
+<div class="left">
+  <p class="fruit11">Apples - <input type="number" id="apple" class="shoppinginput" onChange="apple()" onchange="grandtotalfruits"> Rs.50/Kg</p>
+  <p class="fruit12">Total amount = Rs.<output id="appletotal"></output></p>
+</div>
+<div class="left">
+  <p class="fruit11">Bananas - <input type="number" id="banana" class="shoppinginput" onChange="banana()" onchange="grandtotalfruits"> Rs.30/Kg</p>
+  <p class="fruit12">Total amount = Rs.<output id="bananatotal"></output></p>
+</div>
+
+<div class="grandtotal">
+  <p class="fruit13">Grand total = Rs.<output id="grandtotalfruitss"></output></p>
