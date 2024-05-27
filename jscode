@@ -1,0 +1,23 @@
+var itemquantity, appleamount, appletotalamount = 0, bananaamount, bananatotalamount = 0, gtotalfruits, gtotalfruitss
+
+function apple() {
+  var itemquantity = document.getElementById("apple");
+  var appleamount = document.getElementById("appletotal");
+  appletotalamount = itemquantity.value * 50;
+  appleamount.value = appletotalamount;
+  grandtotalfruits();
+}
+
+function banana() {
+  var itemquantity = document.getElementById("banana");
+  var bananaamount = document.getElementById("bananatotal");
+  bananatotalamount = itemquantity.value * 30;
+  bananaamount.value = bananatotalamount;
+  grandtotalfruits();
+}
+
+function grandtotalfruits() {
+  var gtotalfruits = document.getElementById("grandtotalfruitss");
+  var gtotalfruitss = appletotalamount + bananatotalamount;
+  gtotalfruits.value = gtotalfruitss;
+}
